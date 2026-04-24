@@ -6,7 +6,8 @@
 ### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
 - 📝 I write technical articles at [apoorvtyagi.tech](https://apoorvtyagi.tech/)
 - 💻 I use daily: **.js**, **.java**, **.py**,  **.sql**,**c**,**c++**,**linux**,**IOT**
-- 🧑‍💻 Tech I work on :
+- 🧑‍💻 Tech I work on
+- Im a studemt at the department IT:
 
 <p align="center">
       <a href="https://skillicons.dev">
