@@ -1,78 +1,75 @@
-# Hi there! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />
+# Tajer Home
 
+Tajer Home is an Arabic-first SaaS platform for homeware retailers in Egypt. It helps merchants manage products, inventory, sales, purchases, expenses, debts, dashboard reporting, and subscription lifecycle from one professional workspace.
 
-![](https://camo.githubusercontent.com/992babdffd8c74a1502de375fbdf7e4d54773242/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f53576f536b4e36447854737a71494b4571762f67697068792e676966)
+## Features
+- Business registration and tenant isolation
+- Product catalog with stock levels and pricing
+- Sales and purchase workflows
+- Supplier and customer records
+- Expense tracking
+- Inventory movement history
+- Dashboard summary and basic reports
+- RTL Arabic user interface
+- Free trial, monthly, and annual subscription plans
+- Manual payment verification and admin approval flow
+- Subscription expiration enforcement on business operations
+- Mobile-first responsive dashboard shell
+- Installable PWA support
 
-### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
-- 📝 I write technical articles at [apoorvtyagi.tech](https://apoorvtyagi.tech/)
-- 💻 I use daily: **.js**, **.java**, **.py**,  **.sql**,**c**,**c++**,**linux**,**IOT**
-- 🧑‍💻 Tech I work on
-- Im a studemt at the department IT:
+## Tech stack
+- Laravel 12
+- PHP 8.2
+- MySQL/MariaDB compatible database
+- React + TypeScript + Vite
+- Tailwind CSS
+- Sanctum
 
-<p align="center">
-      <a href="https://skillicons.dev">
-            <img src="https://skillicons.dev/icons?i=java,py,linux,c,html,css" />
-      </a>
-</p>
-
----
-### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
-![Apoorv's github streak](https://streak-stats.demolab.com?user=apoorvtyagi&theme=dark&mode=weekly)
-
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-195%20hrs%2058%20mins-blue?style=flat)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                205 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.43 % 
-🌆 Daytime                425 commits         ███████░░░░░░░░░░░░░░░░░░   27.85 % 
-🌃 Evening                764 commits         █████████████░░░░░░░░░░░░   50.07 % 
-🌙 Night                  132 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   191 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.52 % 
-Tuesday                  187 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.25 % 
-Wednesday                94 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.16 % 
-Thursday                 101 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.62 % 
-Friday                   200 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.11 % 
-Saturday                 291 commits         █████░░░░░░░░░░░░░░░░░░░░   19.07 % 
-Sunday                   462 commits         ████████░░░░░░░░░░░░░░░░░   30.28 % 
+## Setup
+```powershell
+cd d:/my-project
+composer install
+copy .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
 ```
 
+## Run the app
+Backend:
+```powershell
+php artisan serve --host=127.0.0.1 --port=8000
+```
 
+Frontend:
+```powershell
+npm install
+npm run dev -- --host 127.0.0.1 --port 5173
+```
 
-<!--END_SECTION:waka-->
+## Demo credentials
+- Email: owner@example.com
+- Password: Password123!
 
-⏳ **Year Progress:** { █████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 30.98% as on ⏰ 24-Apr-2026
+## Subscription defaults
+- Trial plan: 7 days free
+- Monthly subscription: 250 EGP
+- Annual subscription: 2400 EGP
+- Payment destination number: 01022809880
 
----
+## Test commands
+```powershell
+php artisan test --filter=SubscriptionModuleTest
+npm run build
+```
 
-### <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = '23' /> My Latest Blog posts:
-<!-- BLOG-POST-LIST:START -->
-- [What is Jib? A Complete Guide to Java Containerization Without Dockerfiles](https://apoorvtyagi.tech/what-is-jib-a-complete-guide-to-java-containerization-without-dockerfiles)
-- [Kafka Consumer Container Restarts in Kubernetes: A Production Case Study](https://apoorvtyagi.tech/kafka-consumer-container-restarts-in-kubernetes-a-production-case-study)
-- [How we solved cache invalidation in Kubernetes with a headless service](https://apoorvtyagi.tech/how-we-solved-cache-invalidation-in-kubernetes-with-a-headless-service)
-- [Going Vernacular: Engineering Our Way to Process Multilingual Names](https://apoorvtyagi.tech/going-vernacular-engineering-our-way-to-process-multilingual-names)
-- [Building Resilient Systems: Retry Pattern in Microservices](https://apoorvtyagi.tech/building-resilient-systems-retry-pattern-in-microservices)
-- [Finding a Needle in Haystack: Fixing Mysterious Bad Gateway](https://apoorvtyagi.tech/finding-a-needle-in-haystack-fixing-mysterious-bad-gateway)
-<!-- BLOG-POST-LIST:END -->
+## Default ports
+- Laravel API: http://127.0.0.1:8000
+- Vite frontend: http://127.0.0.1:5173
 
-▶ [... view more](https://apoorvtyagi.tech/)
-
----
-
-### <img alt="GIF" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="20" /> A Famous Fact/Quote:
-<a href="https://github.com/marketplace/actions/quote-readme">
-<!--STARTS_HERE_QUOTE_README-->
-• <i>“A computer once beat me at chess, but it was no match for me at kick boxing.”— Emo Philips  </i>
-<!--ENDS_HERE_QUOTE_README-->
-</a>
-
----
-
-### <img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width ='29' /> Here's a Pinch of Humour:
-<img src="https://readme-jokes.vercel.app/api" alt="Error fetching humour, Refresh again to view the Card" width = '11000' />
+## Troubleshooting
+- If MySQL login fails, create the database and update `.env`.
+- If frontend scripts are blocked, temporarily bypass PowerShell execution policy for the session.
+- If API requests fail, confirm the backend is running on port 8000 and the route includes `/api/v1`.
+- If a subscription is expired, the backend blocks normal business operations until renewal or approval is complete.
 
